@@ -1,0 +1,117 @@
+a {
+    text-decoration: none;
+}
+
+#home {
+    background-image: url(../imgs/pexels-wendywei-1190298.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    /* background-color: rgba(0, 0, 0, 0.6) */
+    background-color: rgba(214, 46, 51, 0.6)
+}
+
+aside {
+    z-index: 9999;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.closeIcon,
+.openIcon {
+    cursor: pointer;
+}
+
+
+.sideBar-content ul a:hover{
+    color: rgba(214, 46, 51, 0.6) !important;
+}
+
+.singerDropdown {
+    padding: 25px 0px;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    margin: 100px 0px
+}
+
+.singerDetails {
+    display: none;
+    background-color: #ccc;
+    color: black;
+}
+
+.countdown {
+    background-image: url(../imgs/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 330px;
+
+}
+
+.countdown-border {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container {
+    padding: 100px 0px
+}
+
+.partyForm h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.partyForm h4 {
+    font-weight: bold;
+}
+
+.partyForm .red {
+    color: #D62E33
+}
+
+.contact-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 20px 0px 0px;
+    border: 1px solid #D62E33;
+    padding: 10px
+
+}
+
+
+.contact-socials a:hover{
+    border: 1px solid white;
+    background-color: #D62E33;
+
+}
+
+
+.contact-socials a i{
+    font-size: 20px;
+}
+
+.partyForm .btn{
+    background-color: #D62E33 ;
+    color: white;
+    padding: 10px 15px;
+}
+
+.partyForm .rightSide{
+    margin-top: 100px;
+}
+
+
+.form-control:focus{
+    border-color: #D62E33!important;
+    box-shadow: none
+}
